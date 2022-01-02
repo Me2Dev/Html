@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="Css/GeneralStyle.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header></header>
+        <main class="LogSignMain">
+            <!--log In-->
+            <div class="GeneralPanel">
+                <div class="logSign">
+                    <h1>LOG IN</h1>
+                    <form>
+                        <div class="inputdiv">
+                            <i class="fa fa-user icon"></i>
+                            <input type="email" class="LogInput LogInput-output" name="email_login" id="email_login" placeholder=" username or email"><br/>
+                        </div>
+                        <div class="inputdiv"> 
+                            <i class="fa fa-key icon"></i>
+                            <input type="password" class="LogInput LogInput-output" name="password_login" id="password_login" placeholder=" password"><br/>
+                        </div> 
+                        <div class="LogInput logInput-check">
+                            <input type="checkbox"  name="SaveLog" id="SaveLog"><span class="loginText loginText-text">Remember me</span>
+                            <a class="loginText loginText-text" href="forgotpassword.html"  style="position:relative; left: 15px;">forgot password?</a>
+                        </div><br/>
+                        <input type="button" href="x.html" class="LogInput LogInput-Button" value="Continue">
+                        <h3 class="loginText loginText-text">or connect with social media</h3>
+                        <input type="button" href="x.html" class="LogInput LogInput-Button" value="facebook" style="background-color: #4D5CFF;">
+                        <input type="button" href="x.html" class="LogInput LogInput-Button" value="twiter" style="background-color: #45E6CD;">
+                    </form>
+                </div>
+            </div>
+            <!--Sign In-->
+            <div class="GeneralPanel">
+                <div class="logSign">
+                    <h1>SIGN IN</h1>
+                    <form>
+                        <div class="signdiv">
+                            <label for="username" class="signin loginText-text">Username</label><br>
+                            <div class="inputdiv">
+                                <i class="fa fa-user icon"></i>
+                                <input class="signInput signInput-output" type="text" name="username" id="username" placeholder="enter your username"><br>
+                            </div>
+                        </div>
+                        <div class="signdiv">
+                            <label for="email" class="signin loginText-text">Email Address</label><br>
+                            <div class="inputdiv">
+                                <i class="fa fa-envelope icon"></i>
+                                <input class="signInput signInput-output" type="email" name="email" id="email" placeholder="enter your email"><br>
+                            </div>
+                        </div>
+                        <div class="signdiv">
+                            <label for="password" class="signin loginText-text">Password</label><br>
+                            <div class="inputdiv">
+                                <i class="fa fa-key icon"></i>
+                                <input class="signInput signInput-output" type="password" name="password" id="password"
+                                    placeholder="creat your password"><br>
+                            </div>
+                        </div>
+                        <div class="signdiv">
+                            <label for="passwordverify" class="signin loginText-text">Password verify</label><br>
+                            <div class="inputdiv">
+                                <i class="fa fa-key icon"></i>
+                                <input class="signInput signInput-output" type="password" name="passwordverify" id="passwordverify"
+                                    placeholder="enter your password to verify"><br>
+                            </div>
+                        </div>
+                        <input class="signinchek" type="checkbox" name="SaveLog" id="SaveLog"><span class="signinchek signintext-text">Get notifications in your email</span>
+                        <input type="button" href="x.html" class="LogInput LogInput-Button" value="Continue">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+</html>

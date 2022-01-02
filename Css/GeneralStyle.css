@@ -1,0 +1,110 @@
+body{
+    background-color: #676FA3;
+    margin: 0;
+    height: 100vh;
+
+}
+main{
+    height: 100%;
+}
+h1{
+    margin: 38px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.LogSignMain{
+    display: flex;
+    justify-content: space-evenly;
+}
+.GeneralPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+.logSign{
+    background-color:#EEF2FF;
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+}
+.LogInput{
+    margin-bottom: 15px;
+}
+.signInput{
+    margin-bottom: 10px;
+}
+.LogInput-output{
+    width: 235px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #CDDEFF;
+    padding: 0 25px;
+}
+.signInput-output{
+    width: 235px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #CDDEFF;
+    padding: 0 25px;
+}
+.LogInput-Button{
+    background-color: #FF5959;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 275px;
+    height: 45px;
+    border: none;
+    color: #EEF2FF;
+    Text-transform:Uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginText-text{
+    margin: 0px;
+    margin-bottom: 15px;
+    color: #676FA3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+.logInput-check{
+    /*position: absolute;*/
+    position: relative;
+    left: -10px;
+    margin: 0px;
+}
+.inputdiv{
+    position: relative;
+    
+}
+.fa{
+    position: absolute;
+    left: 65px;
+    top: 15px;
+    padding: 0;
+    color: #676FA3;
+}
+.signinchek{
+        margin-bottom: 15px;
+}
+.signintext-text{
+    color: #676FA3;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+}
+.signdiv{
+   position: relative;
+}
+.signin{
+    position: absolute;
+    left: 60px;
+}
